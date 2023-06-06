@@ -1,0 +1,21 @@
+MATCH (n) WHERE n.dataset="karate" RETURN n
+MATCH (n) WHERE n.dataset="football" RETURN n
+MATCH (n) WHERE n.dataset="polblogs" AND n.node_id="33" RETURN n.community_id
+
+
+
+MATCH (n) WHERE n.dataset="polblogs" AND n.node_id="33" RETURN n.community_id
+
+
+查询节点所在社区：
+MATCH (n) WHERE n.dataset="polblogs" AND n.node_id="1" WITH n.community_id as comID
+WITH comID
+MATCH (n) WHERE n.dataset="polblogs" AND n.community_id=comID
+return n
+
+查询特定规模社区：
+MATCH (n) WHERE n.dataset="polblogs" AND n.community_size<=20 WITH DISTINCT n.community_id as comID
+WITH comID
+MATCH (n) WHERE n.dataset="polblogs" AND n.community_id=comID
+return n
+

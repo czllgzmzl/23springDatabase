@@ -1,0 +1,281 @@
+node {
+  diameter: 32px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+}
+node.* {
+  defaultCaption: "{node_id}"
+}
+relationship {
+  color: "{style_color}";
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 2px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: " ";
+}
+node.0A {
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.0B {
+  color: #F79767;
+  border-color: #f36924;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.0C {
+  color: #57C7E3;
+  border-color: #23b3d7;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.0D {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.0E {
+  color: #D9C8AE;
+  border-color: #c0a378;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.0F {
+  color: #8DCC93;
+  border-color: #5db665;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.0G {
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.0H {
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.0I {
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.0J {
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.0K {
+  color: #569480;
+  border-color: #447666;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.0L {
+  caption: "{node_id}";
+}
+node.0M {
+  caption: "{node_id}";
+}
+node.0N {
+  caption: "{node_id}";
+}
+node.0O {
+  caption: "{node_id}";
+}
+node.0P {
+  caption: "{node_id}";
+}
+node.0Q {
+  caption: "{node_id}";
+}
+node.0R {
+  caption: "{node_id}";
+}
+node.1A {
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.1B {
+  color: #F79767;
+  border-color: #f36924;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.1C {
+  color: #57C7E3;
+  border-color: #23b3d7;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.1D {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.1E {
+  color: #D9C8AE;
+  border-color: #c0a378;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.1F {
+  color: #8DCC93;
+  border-color: #5db665;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.1G {
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.1H {
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.1I {
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.1J {
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.1K {
+  color: #569480;
+  border-color: #447666;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.1L {
+  caption: "{node_id}";
+}
+node.1M {
+  caption: "{node_id}";
+}
+node.1N {
+  caption: "{node_id}";
+}
+node.1O {
+  caption: "{node_id}";
+}
+node.1P {
+  caption: "{node_id}";
+}
+node.1Q {
+  caption: "{node_id}";
+}
+node.1R {
+  caption: "{node_id}";
+}
+node.2A {
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.2B {
+  color: #F79767;
+  border-color: #f36924;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.2C {
+  color: #57C7E3;
+  border-color: #23b3d7;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.2D {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.2E {
+  color: #D9C8AE;
+  border-color: #c0a378;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.2F {
+  color: #8DCC93;
+  border-color: #5db665;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.2G {
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.2H {
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.2I {
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #604A0E;
+  caption: "{node_id}";
+}
+node.2J {
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.2K {
+  color: #569480;
+  border-color: #447666;
+  text-color-internal: #FFFFFF;
+  caption: "{node_id}";
+}
+node.2L {
+  caption: "{node_id}";
+}
+node.2M {
+  caption: "{node_id}";
+}
+node.2N {
+  caption: "{node_id}";
+}
+node.2O {
+  caption: "{node_id}";
+}
+node.2P {
+  caption: "{node_id}";
+}
+node.2Q {
+  caption: "{node_id}";
+}
+node.2R {
+  caption: "{node_id}";
+}
